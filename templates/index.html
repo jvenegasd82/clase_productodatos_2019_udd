@@ -1,12 +1,12 @@
 {% extends "base.html" %} {% block content %}
 
-<h2>Sube una imagen</h2>
+<h2>Mascotas permitidas en la Comunidad.</h2>
 
-<div>
+<div><img src="caricatura-hombre-sus-mascotas_52569-188.jpg" width="626" height="626" alt=""/>
     <form id="upload-file" method="post" enctype="multipart/form-data">
         <label for="imageUpload" class="upload-label">
-            Subir
-        </label>
+            Revision de imagen:
+      </label>
         <input type="file" name="file" id="imageUpload" accept=".png, .jpg, .jpeg">
     </form>
 
@@ -16,7 +16,7 @@
             </div>
         </div>
         <div>
-            <button type="button" class="btn btn-primary btn-lg " id="btn-predict">¡Predecir!</button>
+            <button type="button" class="btn btn-primary btn-lg " id="btn-predict">Revision</button>
         </div>
     </div>
 
